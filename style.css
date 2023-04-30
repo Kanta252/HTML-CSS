@@ -69,3 +69,11 @@
  border-radius: 10px;
  transition: top .2s,transform .2s,opacity .3s;
 }
+
+.FirstView{
+ background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp);
+ background-size: cover;
+ background-position: center;
+ padding-top: 100px;
+ padding-bottom: 28px;
+}
