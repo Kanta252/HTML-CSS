@@ -60,6 +60,10 @@ a {
  text-decoration: none;
 }
 
+.HeaderLogo:hover {
+ opacity: .8;
+}
+
 .HeaderLogo__image--pc {
  display: block;
  height: 20px;
@@ -203,6 +207,10 @@ ul, ol {
  margin-right: 45px;
 }
 
+.HeaderNavListItem:hover {
+ opacity: .8;
+}
+
 @media screen and (max-width: 1080px){
 .HeaderNavListItem {
  margin-right: 0;
@@ -304,6 +312,14 @@ img{
 .FirstViewContent{
  margin-bottom: 70px;
  width: fit-content;
+}
+
+.FirstViewContent__buttons a:visited {
+ color: #fff;
+}
+
+.FirstViewContent__buttons a:hover {
+ opacity: .8;
 }
 
 @media screen and (max-width: 767px){
